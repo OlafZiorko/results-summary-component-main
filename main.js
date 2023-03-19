@@ -34,7 +34,7 @@ window.addEventListener("load", () => {
   let score = scores.forEach((block, index) => {
     container.innerHTML += `<div class="summary ${colors[index]}" >
       <div class="title">
-      <span class="title--img"><img src="${block.icon}"/></span>
+      <span class="title--img"><img src="${block.icon}" alt=""/></span>
         <span class="title--desc">${block.category}</span>
       </div>
       <div class="score">
