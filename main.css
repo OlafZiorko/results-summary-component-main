@@ -43,14 +43,13 @@ html {
   height: 100vh;
 }
 body {
+  background-color: var(--white-200);
   font-family: var(--fnt-fm);
   font-size: 62.5%;
   min-height: 100vh;
+  display: grid;
 }
-.main {
-  background-color: var(--white-200);
-  min-height: 100vh;
-}
+
 .container {
   background-color: var(--white-100);
   max-width: 600px;
